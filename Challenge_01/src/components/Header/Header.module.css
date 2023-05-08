@@ -1,0 +1,23 @@
+.header{
+    -webkit-font-smoothing: antialiased;
+
+    background: var(--gray-800);;
+    color: var(--white);
+
+    display: flex;
+    
+    justify-content: center;
+    justify-items: center;
+    
+    padding: 4.5rem 0;
+    gap: 1rem;
+
+    max-height: 12.5rem;
+    max-width: 160rem;
+    min-width: 20rem;
+}
+
+.header img{
+    min-height: 3rem;
+    width: 7.8rem;
+}

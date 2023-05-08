@@ -1,0 +1,50 @@
+.boxHeader{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    height: 1.1875rem;
+    width: 46rem;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.boxHeader .createdChores{
+    color: var(--blue);
+}
+
+.boxHeader .concludedChores{
+    color: var(--purple);
+}
+
+.counterCreatedChores{
+    background-color: var(--gray-400);
+
+    flex-direction: row;
+    height: 1.1875rem;
+    width: 1.5625rem;
+    border-radius: 1.3rem;
+    border: none;
+
+    text-align: center;
+}
+
+.counterConcludedChores{
+    background-color: var(--gray-400);
+
+    flex-direction: row;
+    height: 1.1875rem;
+    width: 3.75rem;
+    border-radius: 1.3rem;
+    border: none;
+
+    text-align: center;
+}

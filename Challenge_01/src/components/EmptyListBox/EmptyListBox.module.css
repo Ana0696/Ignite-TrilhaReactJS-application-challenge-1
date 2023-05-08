@@ -1,0 +1,33 @@
+.emptyBoard{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 17.94rem;
+    width: 46rem;
+
+    border-radius: .5rem;
+    border-top: .08rem solid var(--gray-400);
+
+    gap: 1rem;
+}
+
+.emptyBoard img{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.emptyBoard span{
+    font-size: 1rem;
+}
+
+.line1{
+    color: var(--gray-200);
+    opacity: 72%;
+}
+
+.line2{
+    color: var(--gray-300);
+}

@@ -1,0 +1,26 @@
+.button{
+    display: flex;
+    background-color: var(--blue);
+
+    height: 3.25rem;
+    width: 5.625rem;
+
+    color: var(--white);
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    gap: .5rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.button span{
+    font-size: 0.875rem;
+}
+
+.button:hover{
+    background-color: var(--blue-dark);
+    transition: background-color 0.1s;
+}

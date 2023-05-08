@@ -1,0 +1,38 @@
+.boardBody{
+
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    justify-items: center;
+    
+    gap: 2rem;
+}
+
+.taskBox{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    justify-items: center;
+
+    gap:.5rem;
+}
+
+.taskBox .header{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+    padding: 1rem;
+}
+
+.taskBox .body{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+    padding: 1rem;
+}
